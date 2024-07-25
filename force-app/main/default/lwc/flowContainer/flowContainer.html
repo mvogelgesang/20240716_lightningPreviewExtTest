@@ -1,0 +1,34 @@
+<template>
+  <div class="slds-var-p-around_medium bg-green">
+    <div class="slds-text-title_caps slds-var-p-bottom_medium">
+      Flow Container
+    </div>
+    <lightning-flow
+      flow-api-name="LightningPreviewScreenFlow"
+      flow-input-variables={inputVariables}
+      onstatuschange={handleStatusChange}
+    >
+    </lightning-flow>
+    <div>
+      Derived Color Value from Flow &amp; LWC: {outputVarValue}
+    </div>
+    <!-- uncomment and observe page updates without deployment -->
+    <!--
+    <div class="slds-var-p-top_medium">
+      <lightning-badge
+        label="Alpha"
+        icon-name="standard:event"
+      ></lightning-badge>
+      <lightning-badge
+        label="Beta"
+        icon-name="standard:email"
+        icon-position="end"
+      ></lightning-badge>
+      <lightning-badge
+        label="Gamma"
+        icon-name="custom:custom11"
+      ></lightning-badge>
+    </div>
+    -->
+  </div>
+</template>

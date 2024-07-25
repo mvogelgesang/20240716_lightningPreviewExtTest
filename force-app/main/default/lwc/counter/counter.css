@@ -1,0 +1,8 @@
+.big {
+  color: indigo;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.inline {
+  display: inline;
+}
