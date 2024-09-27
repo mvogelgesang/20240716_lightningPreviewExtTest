@@ -63,7 +63,7 @@
         </fields>
         <fields>
             <name>screen_flow_widget</name>
-            <extensionName>mvpbo3:screenFlowWidget</extensionName>
+            <extensionName>mvoriginalNS:screenFlowWidget</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>inputBoolean</name>

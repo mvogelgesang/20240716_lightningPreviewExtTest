@@ -8,20 +8,10 @@
         <itemInstances>
             <componentInstance>
                 <componentName>counter</componentName>
-                <identifier>mvpbo3_counter</identifier>
+                <identifier>mvoriginalNS_counter</identifier>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>flowContainer</componentName>
-                <identifier>mvpbo3_flowContainer</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>LightningPreviewAppPage</masterLabel>
